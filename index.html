@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Character stylesheet Prompt Generator</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+        }
+        select, button {
+            margin: 5px 0;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #result {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>D&D Character stylesheet Prompt Generator</h1>
+    <form id="dndForm">
+	
+	<h2>Character</h2>
+	
+	<label for="race">Race:</label>
+    <select id="race">
+        <option value="Human">Human</option>
+        <option value="Elf">Elf</option>
+        <option value="Dwarf">Dwarf</option>
+        <option value="Halfling">Halfling</option>
+        <option value="Orc">Orc</option>
+    </select>
+	
+	<label for="profession">Profession:</label>
+    <select id="profession">
+            <option value="Wizard">Wizard</option>
+            <option value="Warrior">Warrior</option>
+            <option value="Rogue">Rogue</option>
+            <option value="Bard">Bard</option>
+        </select>
+		
+        <label for="personality">Personality:</label>
+        <select id="personality">
+            <option value="Mysterious">Mysterious</option>
+            <option value="Brave">Brave</option>
+            <option value="Wise">Wise</option>
+            <option value="Cunning">Cunning</option>
+        </select>	
+		
+		<h2>Background</h2>
+		
+		<label for="location">Location:</label>
+        <select id="location">
+            <option value="the old ruins">The Old Ruins</option>
+            <option value="the royal palace">The Royal Palace</option>
+            <option value="a haunted forest">A Haunted Forest</option>
+        </select>		
+		
+		
+		<h2>Style</h2>
+		
+		<label for="medium">Medium:</label>
+        <select id="medium">
+            <option value="oil">Oil painting</option>
+            <option value="pencil">Pencil drawing</option>
+            <option value="3d">3D Render</option>
+        </select>
+		
+        <button type="button" onclick="generatePrompt()">Generate Prompt</button>
+
+    </form>
+    <div id="GeneratedPrompt"></div>
+
+	<button type="button"  id="copyToClipboard" onclick="copyToClipboard()">Copy to Clipboard</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
