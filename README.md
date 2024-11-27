@@ -2,7 +2,7 @@ A lightweight HTML/JavaScript tool designed to spark creativity for your Dungeon
 
 - User-Friendly Interface: Easy-to-use dropdown menus to construct unique character descriptions.
 - Customizable Prompts: Select from various traits like race, class, background, and additional features to tailor the image prompt to your vision or campaign setting.
-- Quick Generation: Instantly create a narrative description or visual prompt for your character, perfect for sketching, digital art, or commission briefs.
+- Quick Generation: Instantly create a prompt for your character, perfect for sketching, digital art, or commission briefs.
 - Copy Feature: One-click copy functionality to easily share or use the generated prompt in your creative process.
 - No Backend Required: All generation happens client-side, ensuring privacy and ease of use without the need for server-side components.
 
@@ -16,5 +16,4 @@ Use the 'Copy' button to transfer the prompt to your clipboard for immediate use
 Contributions: 
 Feel free to contribute by adding more options for character traits, improving the UI, or enhancing the JavaScript logic for even more varied and detailed outputs.
 
-Demo:
-No demo available.
+![Screenshot](Screenshot.png)
